@@ -39,17 +39,21 @@
   <circle cx="50" cy="25" r="6" fill="#F59E0B"/>
   <circle cx="70" cy="25" r="6" fill="#10B981"/>
   
-  <!-- Header Text -->
+  <!-- Header Title -->
   <text x="100" y="30" fill="#475569" font-size="14" font-weight="500">profile.sh --live</text>
   
   <!-- LIVE Pill -->
-  <rect x="990" y="16" width="60" height="18" rx="9" fill="#EF4444" fill-opacity="0.15" stroke="#EF4444" stroke-width="1"/>
-  <circle cx="1002" cy="25" r="4" fill="#EF4444" class="live-badge"/>
-  <text x="1012" y="29" fill="#DC2626" font-size="11" font-weight="700">LIVE</text>
+  <g transform="translate(930, 14)">
+    <rect x="0" y="0" width="64" height="22" rx="11" fill="#EF4444" fill-opacity="0.15" stroke="#EF4444" stroke-width="1"/>
+    <circle cx="14" cy="11" r="4" fill="#EF4444" class="live-badge"/>
+    <text x="24" y="15" fill="#DC2626" font-size="11" font-weight="700">LIVE</text>
+  </g>
   
-  <!-- Handle Pill -->
-  <rect x="1060" y="16" width="100" height="18" rx="9" fill="#0891B2" fill-opacity="0.15" stroke="#0891B2" stroke-width="1"/>
-  <text x="1070" y="29" fill="#0891B2" font-size="11" font-weight="600">@lazydeveloper10</text>
+  <!-- Handle Pill (Wider pill box with centered text) -->
+  <g transform="translate(1005, 14)">
+    <rect x="0" y="0" width="155" height="22" rx="11" fill="#0891B2" fill-opacity="0.15" stroke="#0891B2" stroke-width="1"/>
+    <text x="77" y="15" fill="#0891B2" font-size="11" font-weight="600" text-anchor="middle">@lazydeveloper10</text>
+  </g>
 
   <!-- LEFT PANEL: VISUAL.MAP -->
   <g transform="translate(30, 70)">
@@ -101,7 +105,7 @@
 
     <g transform="translate(25, 115)">
       <text x="0" y="0" fill="#0891B2" font-size="14" font-weight="600">Alias</text>
-      <line x1="70" y1="-4" x2="440" y2="-4" stroke="#94A3B8" stroke-width="1" class="dots"/>
+      <line x1="70" y1="-4" x2="350" y2="-4" stroke="#94A3B8" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#7C3AED" font-size="14" font-weight="600" text-anchor="end">SohamTheHacker (@lazydeveloper10)</text>
     </g>
 
@@ -119,7 +123,7 @@
 
     <g transform="translate(25, 235)">
       <text x="0" y="0" fill="#0891B2" font-size="14" font-weight="600">Core.Lang</text>
-      <line x1="100" y1="-4" x2="330" y2="-4" stroke="#94A3B8" stroke-width="1" class="dots"/>
+      <line x1="100" y1="-4" x2="310" y2="-4" stroke="#94A3B8" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#059669" font-size="14" font-weight="600" text-anchor="end">Python · C · C++ · Kotlin · JavaScript</text>
     </g>
 
@@ -131,7 +135,7 @@
 
     <g transform="translate(25, 315)">
       <text x="0" y="0" fill="#0891B2" font-size="14" font-weight="600">Focus</text>
-      <line x1="70" y1="-4" x2="300" y2="-4" stroke="#94A3B8" stroke-width="1" class="dots"/>
+      <line x1="70" y1="-4" x2="280" y2="-4" stroke="#94A3B8" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#7C3AED" font-size="14" font-weight="500" text-anchor="end">AI/ML Models · Telemetry · Streaming Engines</text>
     </g>
 

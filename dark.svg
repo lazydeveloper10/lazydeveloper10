@@ -12,10 +12,6 @@
         0%, 100% { transform: translateY(0px); }
         50% { transform: translateY(-5px); }
       }
-      @keyframes matrix {
-        0% { stroke-dashoffset: 100; }
-        100% { stroke-dashoffset: 0; }
-      }
       .live-badge { animation: pulse 2s infinite ease-in-out; }
       .floating { animation: float 4s infinite ease-in-out; }
       .dots { stroke-dasharray: 4, 4; }
@@ -43,17 +39,21 @@
   <circle cx="50" cy="25" r="6" fill="#F59E0B"/>
   <circle cx="70" cy="25" r="6" fill="#10B981"/>
   
-  <!-- Header Text -->
+  <!-- Header Title -->
   <text x="100" y="30" fill="#94A3B8" font-size="14" font-weight="500">profile.sh --live</text>
   
   <!-- LIVE Pill -->
-  <rect x="990" y="16" width="60" height="18" rx="9" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="1"/>
-  <circle cx="1002" cy="25" r="4" fill="#EF4444" class="live-badge"/>
-  <text x="1012" y="29" fill="#EF4444" font-size="11" font-weight="700">LIVE</text>
+  <g transform="translate(930, 14)">
+    <rect x="0" y="0" width="64" height="22" rx="11" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="1"/>
+    <circle cx="14" cy="11" r="4" fill="#EF4444" class="live-badge"/>
+    <text x="24" y="15" fill="#EF4444" font-size="11" font-weight="700">LIVE</text>
+  </g>
   
-  <!-- Handle Pill -->
-  <rect x="1060" y="16" width="100" height="18" rx="9" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-width="1"/>
-  <text x="1070" y="29" fill="#22D3EE" font-size="11" font-weight="600">@lazydeveloper10</text>
+  <!-- Handle Pill (Wider pill box with centered text) -->
+  <g transform="translate(1005, 14)">
+    <rect x="0" y="0" width="155" height="22" rx="11" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-width="1"/>
+    <text x="77" y="15" fill="#22D3EE" font-size="11" font-weight="600" text-anchor="middle">@lazydeveloper10</text>
+  </g>
 
   <!-- LEFT PANEL: VISUAL.MAP -->
   <g transform="translate(30, 70)">
@@ -63,7 +63,6 @@
     
     <!-- Matrix Grid Visual -->
     <g transform="translate(25, 60)">
-      <!-- Animated Dither Node Grid -->
       <rect x="0" y="0" width="360" height="410" rx="6" fill="#0A101F" stroke="#A78BFA" stroke-opacity="0.3"/>
       
       <!-- Nodes & Lines -->
@@ -98,63 +97,54 @@
     <line x1="25" y1="40" x2="655" y2="40" stroke="#22D3EE" stroke-opacity="0.2" stroke-width="1"/>
 
     <!-- Rows with Dotted Leaders -->
-    <!-- Row 1: Subject -->
     <g transform="translate(25, 75)">
       <text x="0" y="0" fill="#22D3EE" font-size="14" font-weight="600">Subject</text>
       <line x1="85" y1="-4" x2="520" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#F8FAFC" font-size="14" font-weight="600" text-anchor="end">Soham</text>
     </g>
 
-    <!-- Row 2: Alias -->
     <g transform="translate(25, 115)">
       <text x="0" y="0" fill="#22D3EE" font-size="14" font-weight="600">Alias</text>
-      <line x1="70" y1="-4" x2="440" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
+      <line x1="70" y1="-4" x2="350" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#A78BFA" font-size="14" font-weight="600" text-anchor="end">SohamTheHacker (@lazydeveloper10)</text>
     </g>
 
-    <!-- Row 3: Role -->
     <g transform="translate(25, 155)">
       <text x="0" y="0" fill="#22D3EE" font-size="14" font-weight="600">Role</text>
       <line x1="60" y1="-4" x2="380" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#F8FAFC" font-size="14" font-weight="500" text-anchor="end">AI Engineer &amp; Systems Architect</text>
     </g>
 
-    <!-- Row 4: Origin -->
     <g transform="translate(25, 195)">
       <text x="0" y="0" fill="#22D3EE" font-size="14" font-weight="600">Origin</text>
       <line x1="75" y1="-4" x2="350" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#94A3B8" font-size="14" font-weight="500" text-anchor="end">Mathematician &amp; Chaos Engineer</text>
     </g>
 
-    <!-- Row 5: Core.Lang -->
     <g transform="translate(25, 235)">
       <text x="0" y="0" fill="#22D3EE" font-size="14" font-weight="600">Core.Lang</text>
-      <line x1="100" y1="-4" x2="330" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
+      <line x1="100" y1="-4" x2="310" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#10B981" font-size="14" font-weight="600" text-anchor="end">Python · C · C++ · Kotlin · JavaScript</text>
     </g>
 
-    <!-- Row 6: ToolChain -->
     <g transform="translate(25, 275)">
       <text x="0" y="0" fill="#22D3EE" font-size="14" font-weight="600">ToolChain</text>
       <line x1="100" y1="-4" x2="360" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#F8FAFC" font-size="14" font-weight="500" text-anchor="end">VS Code · Linux · Docker · Git</text>
     </g>
 
-    <!-- Row 7: Focus -->
     <g transform="translate(25, 315)">
       <text x="0" y="0" fill="#22D3EE" font-size="14" font-weight="600">Focus</text>
-      <line x1="70" y1="-4" x2="300" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
+      <line x1="70" y1="-4" x2="280" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#A78BFA" font-size="14" font-weight="500" text-anchor="end">AI/ML Models · Telemetry · Streaming Engines</text>
     </g>
 
-    <!-- Row 8: Status -->
     <g transform="translate(25, 355)">
       <text x="0" y="0" fill="#22D3EE" font-size="14" font-weight="600">Status</text>
       <line x1="80" y1="-4" x2="360" y2="-4" stroke="#64748B" stroke-width="1" class="dots"/>
       <text x="630" y="0" fill="#10B981" font-size="14" font-weight="600" text-anchor="end">Building + Learning + Shipping</text>
     </g>
 
-    <!-- Bottom Accent Banner -->
     <g transform="translate(25, 410)">
       <rect x="0" y="0" width="630" height="60" rx="8" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.3"/>
       <text x="20" y="35" fill="#22D3EE" font-size="14" font-weight="600">&gt; motto:</text>

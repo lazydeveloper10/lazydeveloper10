@@ -80,10 +80,10 @@
       <circle cx="140" cy="360" r="5" fill="#22D3EE"/>
       <circle cx="60" cy="300" r="6" fill="#EF4444"/>
 
-      <!-- Center Logo Glyph -->
+      <!-- Center Logo Glyph: Terminal Prompt Emblem (>_) -->
       <g transform="translate(180, 180)" class="floating">
         <circle cx="0" cy="0" r="38" fill="#1E293B" stroke="url(#accentGrad)" stroke-width="2"/>
-        <text x="-24" y="8" fill="#F8FAFC" font-size="22" font-weight="700">&lt;/&gt;</text>
+        <text x="-16" y="8" fill="#22D3EE" font-size="24" font-weight="700">&gt;_</text>
       </g>
 
       <text x="20" y="390" fill="#94A3B8" font-size="11">SYSTEM_TRAJECTORY // OPTIMAL_TRANSPORT</text>

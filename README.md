@@ -9,9 +9,9 @@
 
 <br/><br/>
 
-<!-- PHASE 2: STATS CARDS BLOCK -->
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lazydeveloper10&theme=2077" alt="stats" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lazydeveloper10&theme=2077" alt="top langs" />
+<!-- PHASE 2: STATS CARDS BLOCK (Matching Banner Color Palette: #0A101F, #22D3EE, #A78BFA, #94A3B8) -->
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=lazydeveloper10&amp;show_icons=true&amp;count_private=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;title_color=22D3EE&amp;icon_color=A78BFA&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" alt="stats" />
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lazydeveloper10&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;title_color=22D3EE&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" alt="top langs" />
 
 <br/><br/>
 

@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<!-- PHASE 2: SUMMARY CARDS (100% High-Availability, Zero-Rate-Limit Endpoints) -->
+<!-- PHASE 2: SUMMARY CARDS (Theme-Aware Light & Dark Mode) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lazydeveloper10&amp;theme=2077" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lazydeveloper10&amp;theme=default" />
@@ -23,7 +23,13 @@
 
 <br/><br/>
 
-<!-- PHASE 3: CONTRIBUTION SNAKE -->
+<!-- PHASE 3: CONTRIBUTION SNAKE & WORKFLOW STATUS -->
+<a href="https://github.com/lazydeveloper10/lazydeveloper10/actions/workflows/snake.yml">
+  <img src="https://github.com/lazydeveloper10/lazydeveloper10/actions/workflows/snake.yml/badge.svg" alt="Snake Build Status" />
+</a>
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lazydeveloper10/lazydeveloper10/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lazydeveloper10/lazydeveloper10/output/github-snake.svg" />

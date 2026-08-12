@@ -9,9 +9,9 @@
 
 <br/><br/>
 
-<!-- PHASE 2: STATS CARDS BLOCK (Reliable 2077 Theme Summary Cards) -->
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lazydeveloper10&amp;theme=2077" alt="stats" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lazydeveloper10&amp;theme=2077" alt="top langs" />
+<!-- PHASE 2: STATS CARDS BLOCK -->
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lazydeveloper10&theme=2077" alt="stats" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lazydeveloper10&theme=2077" alt="top langs" />
 
 <br/><br/>
 
